@@ -37,7 +37,7 @@ const Navbar = () => {
                   })}>
                   Pricing
                 </Link>
-                <LoginLink
+                <LoginLink postLoginRedirectURL="/dashboard"
                   className={buttonVariants({
                     variant: 'ghost',
                     size: 'sm',
